@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS 初始化 */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,ul,li,ol,span,img,a,em,i,strong,b,input,select,option,textarea,label{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ color:#3c3c3c; text-decoration:none;}
+a:hover{ color:#ff4400;}
+.clearfix{ zoom:1;}
+.clearfix:after{ content:"."; clear:both; visibility:hidden; height:0; display:block;}
+body{ font-family:"宋体"; font-size:12px;}
+.main{ width:365px; height:251px; background-color:#ffffff; margin:0 auto;}
+.imgList{ width:364px; height:132px; padding:0px 27px 0px 17px; margin-top:39px;}
+.imgList li{float:left;width:102px; height:132px; margin-left:7px;}
+.imgList span{ display:block; width:100%; height:28px; line-height:26px; text-align:center; padding-top:17px;}
+.textList{width:364px; height:auto; padding-left:20px; padding-right:27px; margin-top:26px;}
+.textList li{ float:left; width:160px; height:13px; margin-bottom:11px;}
